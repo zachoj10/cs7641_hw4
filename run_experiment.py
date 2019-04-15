@@ -55,16 +55,11 @@ if __name__ == '__main__':
             'name': 'large_frozen_lake',
             'readable_name': 'Frozen Lake (20x20)',
         },
-        # {
-        #     'env': environments.get_windy_cliff_walking_environment(),
-        #     'name': 'cliff_walking',
-        #     'readable_name': 'Cliff Walking (4x12)',
-        # },
-        # {
-        #     'env': environments.get_bridge_traversal_environment(),
-        #     'name': 'bridge_traverals',
-        #     'readable_name': 'Bridge Traversal (4x12)',
-        # }
+        {
+            'env': environments.get_bridge_traversal_environment(),
+            'name': 'bridge_traverals',
+            'readable_name': 'Bridge Traversal (4x12)',
+        }
     ]
 
     experiment_details = []
